@@ -8,7 +8,10 @@
 
 #import "HomeViewController.h"
 
-@interface HomeViewController ()
+@interface HomeViewController ()<UITableViewDataSource,UITableViewDelegate>{
+    
+    __weak IBOutlet UITableView *mainTableView;
+}
 
 @end
 
@@ -23,6 +26,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1; // number of Restourant
+}
+
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+//    
+//}
+//
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    
+//}
+
 
 /*
 #pragma mark - Navigation
