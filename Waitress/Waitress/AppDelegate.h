@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HomeViewController.h"
-
+#import <Parse/Parse.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

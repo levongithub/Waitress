@@ -16,13 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    self.window.rootViewController = self.homeViewController;
-    [self.window makeKeyAndVisible];
-    return YES;
 
+    [Parse enableLocalDatastore];
+    [Parse setApplicationId:@"AtO2Ml7f0SEBJGDgSGNhMw5dNbIud7LC20NUDcBM" clientKey:@"nNUPWulWg5H3DuLOJQeRFZOA5CtNI6y6UKkcCjAj"];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.homeViewController];
+    
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
