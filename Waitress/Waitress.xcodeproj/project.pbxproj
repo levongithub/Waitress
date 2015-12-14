@@ -13,8 +13,6 @@
 		085A16B61C1B27930035488A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085A16B41C1B27930035488A /* LaunchScreen.storyboard */; };
 		085A16C11C1B27930035488A /* WaitressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A16C01C1B27930035488A /* WaitressTests.m */; };
 		085A16CC1C1B27930035488A /* WaitressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A16CB1C1B27930035488A /* WaitressUITests.m */; };
-		085A16DD1C1B28890035488A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A16DB1C1B28890035488A /* HomeViewController.m */; };
-		085A16DE1C1B28890035488A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085A16DC1C1B28890035488A /* HomeViewController.xib */; };
 		5700F5041C1D944F004E909B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700F4FE1C1D944F004E909B /* Bolts.framework */; };
 		5700F5051C1D944F004E909B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700F4FF1C1D944F004E909B /* Parse.framework */; };
 		5700F5061C1D944F004E909B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700F5001C1D944F004E909B /* ParseFacebookUtils.framework */; };
@@ -86,6 +84,11 @@
 		5700F5D21C1DB053004E909B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5700F5991C1DB053004E909B /* README.md */; };
 		5700F5D31C1DB053004E909B /* UAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700F59B1C1DB053004E909B /* UAProgressView.m */; };
 		5700F5D81C1DB115004E909B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700F5D71C1DB115004E909B /* Reachability.m */; };
+		571971661C1ED73F00B2376D /* WARestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 571971651C1ED73F00B2376D /* WARestaurant.m */; };
+		5719716A1C1EDC2E00B2376D /* RestaurantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 571971681C1EDC2E00B2376D /* RestaurantTableViewCell.m */; };
+		5719716B1C1EDC2E00B2376D /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571971691C1EDC2E00B2376D /* RestaurantTableViewCell.xib */; };
+		571971701C1EF14400B2376D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5719716E1C1EF14400B2376D /* HomeViewController.m */; };
+		571971711C1EF14400B2376D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5719716F1C1EF14400B2376D /* HomeViewController.xib */; };
 		57F72D601C1DBE5300907A4A /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F72D5F1C1DBE5300907A4A /* ProgressView.m */; };
 		57F72D671C1DBE8500907A4A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F72D631C1DBE8500907A4A /* SVIndefiniteAnimatedView.m */; };
 		57F72D681C1DBE8500907A4A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57F72D641C1DBE8500907A4A /* SVProgressHUD.bundle */; };
@@ -123,9 +126,6 @@
 		085A16C71C1B27930035488A /* WaitressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		085A16CB1C1B27930035488A /* WaitressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaitressUITests.m; sourceTree = "<group>"; };
 		085A16CD1C1B27930035488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		085A16DA1C1B28890035488A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Waitress/ViewControllers/HomeViewController.h; sourceTree = SOURCE_ROOT; };
-		085A16DB1C1B28890035488A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Waitress/ViewControllers/HomeViewController.m; sourceTree = SOURCE_ROOT; };
-		085A16DC1C1B28890035488A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Waitress/ViewControllers/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
 		5700F4FE1C1D944F004E909B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		5700F4FF1C1D944F004E909B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		5700F5001C1D944F004E909B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -252,6 +252,15 @@
 		5700F5D51C1DB115004E909B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5700F5D61C1DB115004E909B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5700F5D71C1DB115004E909B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		571971641C1ED73F00B2376D /* WARestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARestaurant.h; sourceTree = "<group>"; };
+		571971651C1ED73F00B2376D /* WARestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARestaurant.m; sourceTree = "<group>"; };
+		571971671C1EDC2E00B2376D /* RestaurantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableViewCell.h; sourceTree = "<group>"; };
+		571971681C1EDC2E00B2376D /* RestaurantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableViewCell.m; sourceTree = "<group>"; };
+		571971691C1EDC2E00B2376D /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		5719716C1C1EE38300B2376D /* WaitressPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaitressPrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		5719716D1C1EF14400B2376D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5719716E1C1EF14400B2376D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5719716F1C1EF14400B2376D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		57F72D5E1C1DBE5300907A4A /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		57F72D5F1C1DBE5300907A4A /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		57F72D621C1DBE8500907A4A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -340,6 +349,7 @@
 		085A16A61C1B27930035488A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5719716C1C1EE38300B2376D /* WaitressPrefixHeader.pch */,
 				085A16A71C1B27930035488A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -419,9 +429,12 @@
 		5700F5181C1DAAC9004E909B /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				085A16DA1C1B28890035488A /* HomeViewController.h */,
-				085A16DB1C1B28890035488A /* HomeViewController.m */,
-				085A16DC1C1B28890035488A /* HomeViewController.xib */,
+				5719716D1C1EF14400B2376D /* HomeViewController.h */,
+				5719716E1C1EF14400B2376D /* HomeViewController.m */,
+				5719716F1C1EF14400B2376D /* HomeViewController.xib */,
+				571971671C1EDC2E00B2376D /* RestaurantTableViewCell.h */,
+				571971681C1EDC2E00B2376D /* RestaurantTableViewCell.m */,
+				571971691C1EDC2E00B2376D /* RestaurantTableViewCell.xib */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -431,6 +444,8 @@
 			children = (
 				5700F51A1C1DADCE004E909B /* Query.h */,
 				5700F51B1C1DADCE004E909B /* Query.m */,
+				571971641C1ED73F00B2376D /* WARestaurant.h */,
+				571971651C1ED73F00B2376D /* WARestaurant.m */,
 			);
 			path = Parse;
 			sourceTree = "<group>";
@@ -818,13 +833,14 @@
 				085A16B31C1B27930035488A /* Assets.xcassets in Resources */,
 				5700F5BD1C1DB053004E909B /* SPGooglePlacesAutocompleteViewController.xib in Resources */,
 				5700F5A61C1DB053004E909B /* LICENSE in Resources */,
+				571971711C1EF14400B2376D /* HomeViewController.xib in Resources */,
 				5700F5B71C1DB053004E909B /* location.png in Resources */,
 				5700F5D11C1DB053004E909B /* LICENSE in Resources */,
 				5700F5B61C1DB053004E909B /* locateButton@2x.png in Resources */,
 				57F72D681C1DBE8500907A4A /* SVProgressHUD.bundle in Resources */,
 				5700F5B51C1DB053004E909B /* locateButton.png in Resources */,
 				5700F5B81C1DB053004E909B /* location@2x.png in Resources */,
-				085A16DE1C1B28890035488A /* HomeViewController.xib in Resources */,
+				5719716B1C1EDC2E00B2376D /* RestaurantTableViewCell.xib in Resources */,
 				5700F5B21C1DB053004E909B /* FSImageViewer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -860,12 +876,14 @@
 				5700F5A01C1DB053004E909B /* AFSecurityPolicy.m in Sources */,
 				5700F5CC1C1DB053004E909B /* UIImage+MultiFormat.m in Sources */,
 				5700F5B41C1DB053004E909B /* README.md in Sources */,
+				571971661C1ED73F00B2376D /* WARestaurant.m in Sources */,
 				5700F5C61C1DB053004E909B /* SDWebImageDownloader.m in Sources */,
 				085A16AB1C1B27930035488A /* AppDelegate.m in Sources */,
 				5700F5CD1C1DB053004E909B /* UIImage+WebP.m in Sources */,
 				5700F5D21C1DB053004E909B /* README.md in Sources */,
 				5700F5AA1C1DB053004E909B /* FSBasicImage.m in Sources */,
 				5700F5BB1C1DB053004E909B /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
+				571971701C1EF14400B2376D /* HomeViewController.m in Sources */,
 				5700F5AE1C1DB053004E909B /* FSImageTitleView.m in Sources */,
 				5700F5A91C1DB053004E909B /* ViewFrameAccessor.m in Sources */,
 				5700F5CE1C1DB053004E909B /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -875,6 +893,7 @@
 				5700F5BC1C1DB053004E909B /* SPGooglePlacesAutocompleteViewController.m in Sources */,
 				5700F59D1C1DB053004E909B /* AFHTTPRequestOperationManager.m in Sources */,
 				5700F5A11C1DB053004E909B /* AFURLConnectionOperation.m in Sources */,
+				5719716A1C1EDC2E00B2376D /* RestaurantTableViewCell.m in Sources */,
 				5700F59C1C1DB053004E909B /* AFHTTPRequestOperation.m in Sources */,
 				085A16A81C1B27930035488A /* main.m in Sources */,
 				5700F5D81C1DB115004E909B /* Reachability.m in Sources */,
@@ -903,7 +922,6 @@
 				5700F5D01C1DB053004E909B /* UIView+WebCacheOperation.m in Sources */,
 				5700F5C11C1DB053004E909B /* MKAnnotationView+WebCache.m in Sources */,
 				5700F5A41C1DB053004E909B /* AFURLSessionManager.m in Sources */,
-				085A16DD1C1B28890035488A /* HomeViewController.m in Sources */,
 				5700F5D31C1DB053004E909B /* UAProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1041,6 +1059,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waitress/Frameworks/parse",
 				);
+				GCC_PREFIX_HEADER = WaitressPrefixHeader.pch;
 				INFOPLIST_FILE = Waitress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waitress.Waitress;
@@ -1056,6 +1075,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waitress/Frameworks/parse",
 				);
+				GCC_PREFIX_HEADER = WaitressPrefixHeader.pch;
 				INFOPLIST_FILE = Waitress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waitress.Waitress;

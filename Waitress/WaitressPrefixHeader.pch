@@ -1,0 +1,21 @@
+//
+//  WaitressPrefixHeader.pch
+//  Waitress
+//
+//  Created by Arman Manukyan on 12/14/15.
+//  Copyright © 2015 Waitress. All rights reserved.
+//
+
+#ifndef WaitressPrefixHeader_pch
+#define WaitressPrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
+
+
+#import "Constants.h"
+#import "ViewFrameAccessor.h"
+#import "UIImageView+WebCache.h"
+
+#endif /* WaitressPrefixHeader_pch */

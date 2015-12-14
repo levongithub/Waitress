@@ -6,9 +6,7 @@
 //  Copyright © 2015 Waitress. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "HomeViewController.h"
-#import <Parse/Parse.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

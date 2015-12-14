@@ -27,43 +27,11 @@
 #define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
 
+#define skipCount 0
+#define limitCount 20
+
 
 #pragma mark - notifications
 
-static NSString *const kRLItemScannedNotification        = @"model.kRLItemScannedNotification";
-static NSString *const kRLMultiscanDoneSucessedNotificaiton        = @"model.kRLMultiscanDoneSucessedNotificaiton";
-static NSString *const kRLScrollviewWillScroll        = @"kRLScrollviewWillScroll";
-static NSString *const kRLScrollviewDidEndScroll        = @"kRLScrollviewwillScroll";
-
-
-static NSString *const kRLSingleScanSucessedNotificaiton        = @"model.kRLSingleScanSucessedNotificaiton";
-
-static NSString *const kMegicButtonTypeChangeNotification = @"kMegicButtonTypeChangeNotification";
-
-static NSString *const kTabBarViewHideNotification = @"kTabBarViewHideNotificationGRDON";
-static NSString *const kTabBarViewHideKeyboardNotification = @"kTabBarViewHideKeyboardNotificationGRDON";
-static NSString *const kUserDidSignInNotification = @"kUserDidSignInNotification";
-static NSString *const kShowSignInViewNotification = @"kShowSignInViewNotification";
-
-typedef enum {
-    
-    POST = 0,
-    OFFER,
-    
-}MEGIC_BUTTON_TYPE;
-
-typedef enum {
-    
-    Buy = 0,
-    Sell = 1
-
-}OFFER_TYPE;
-
-typedef enum {
-
-    New = 0,
-    Usd = 1
-
-}POST_TYPE;
 
 #endif

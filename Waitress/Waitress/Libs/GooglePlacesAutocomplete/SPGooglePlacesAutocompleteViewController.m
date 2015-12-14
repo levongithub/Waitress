@@ -34,7 +34,6 @@
      }
     return self;
 }
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -376,9 +375,9 @@
         [btnCancelDone setTitle:@"Done" forState:UIControlStateNormal];
         
     } else {
+        
         [_googlePlacesDelegate didSelectLovctionWith:searchFiald.text geoPoint:geoPoint];
         [self dismissViewControllerAnimated:YES completion:nil];
-        
     }
 }
 

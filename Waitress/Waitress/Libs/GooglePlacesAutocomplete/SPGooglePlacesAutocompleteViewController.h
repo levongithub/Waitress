@@ -7,7 +7,7 @@
 //
 
 #import <MapKit/MapKit.h>
-#import <Parse/Parse.h>
+
 
 @protocol SPGooglePlacesAutocompleteQueryDelegate <NSObject>
 
