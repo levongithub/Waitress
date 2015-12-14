@@ -29,8 +29,9 @@
     
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
-    
+
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
