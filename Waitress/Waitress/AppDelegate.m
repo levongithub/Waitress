@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "WACategory.h"
+#import "WARestaurant.h"
 
 @interface AppDelegate ()
 
@@ -31,7 +33,6 @@
     [self.window makeKeyAndVisible];
 
     return YES;
-
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

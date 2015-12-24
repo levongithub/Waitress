@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 #import "RestaurantTableViewCell.h"
 #import "Query.h"
-
+#import "MenuCategoriesViewController.h"
 
 @interface HomeViewController ()<UITableViewDataSource,UITableViewDelegate ,RestaurantTableViewCellDelegate>{
     
@@ -52,24 +52,20 @@
 }
 
 #pragma mark Tabel delegate
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
     return 1;
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return  arrayWARestaurant.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"RestaurantTableViewCell";
     
     RestaurantTableViewCell *cell = (RestaurantTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
     
     if (cell == nil) {
         
@@ -82,15 +78,16 @@
     
     return cell;
 }
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 80;
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 90;
 }
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-   
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+ 
+    MenuCategoriesViewController *menuCategoriesViewController = [[MenuCategoriesViewController alloc] initWithNibName:@"MenuCategoriesViewController" bundle:nil];
+    [menuCategoriesViewController setWaRestaurant:arrayWARestaurant[[indexPath row]]];
+    
+    [self.navigationController pushViewController:menuCategoriesViewController animated:YES];
 }
-
-
 /*
 #pragma mark - Navigation
 

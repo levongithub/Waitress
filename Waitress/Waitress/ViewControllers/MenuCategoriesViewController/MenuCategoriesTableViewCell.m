@@ -1,21 +1,22 @@
 //
-//  RestaurantTableViewCell.m
+//  MenuCategoriesTableViewCell.m
 //  Waitress
 //
 //  Created by Arman Manukyan on 12/14/15.
 //  Copyright © 2015 Waitress. All rights reserved.
 //
 
-#import "RestaurantTableViewCell.h"
+#import "MenuCategoriesTableViewCell.h"
 
-@interface RestaurantTableViewCell ()
+@interface MenuCategoriesTableViewCell()
 
-@property (weak, nonatomic) IBOutlet UILabel *name;
+
 @property (weak, nonatomic) IBOutlet UIImageView *avatar;
+@property (weak, nonatomic) IBOutlet UILabel *name;
 
 @end
 
-@implementation RestaurantTableViewCell
+@implementation MenuCategoriesTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code
@@ -29,22 +30,21 @@
     // Configure the view for the selected state
 }
 
-- (void) setWaRestaurant:(WARestaurant *)waRestaurant {
+- (void) setWaCategory:(WACategory *)waCategory {
     
-    _waRestaurant = waRestaurant;
+    _waCategory = waCategory;
     [self fillView];
 }
 
 - (void) fillView {
     
-    [_avatar sd_setImageWithURL:[NSURL URLWithString:[[_waRestaurant avatar]url]]
+    [_avatar sd_setImageWithURL:[NSURL URLWithString:[[_waCategory avatar]url]]
                placeholderImage:[UIImage imageNamed:@"restaurantPlaceholder.png"]
                       completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
                           
                           [_avatar setImage:image];
-    }];
+                      }];
     
-    [_name setText:[_waRestaurant name]];
+    [_name setText:[_waCategory name]];
 }
-
 @end

@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "WARestaurant.h"
+#import "WACategory.h"
 
 @interface Query : NSObject
 
-+(void) getRestaurantskip:(long)skip limit:(long)limit withSuccess:(void(^)(NSArray *items, NSError *error))success;
++ (void) getRestaurantskip:(long)skip limit:(long)limit withSuccess:(void(^)(NSArray *items, NSError *error))success;
+
++ (void) getCategoryForRestaurant:(WARestaurant *)waRestaurant  skip:(long)skip limit:(long)limit withSuccess:(void(^)(NSArray *items, NSError *error))success;
+
++(void) getProductForCategory:(WACategory *)waCategory skip:(long)skip limit:(long)limit withSuccess:(void(^)(NSArray *items, NSError *error))success;
 
 @end

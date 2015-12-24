@@ -84,11 +84,24 @@
 		5700F5D21C1DB053004E909B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5700F5991C1DB053004E909B /* README.md */; };
 		5700F5D31C1DB053004E909B /* UAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700F59B1C1DB053004E909B /* UAProgressView.m */; };
 		5700F5D81C1DB115004E909B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700F5D71C1DB115004E909B /* Reachability.m */; };
+		570A96971C204B6E008E20E9 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A96951C204B6E008E20E9 /* ProductViewController.m */; };
+		570A96981C204B6E008E20E9 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570A96961C204B6E008E20E9 /* ProductViewController.xib */; };
+		570A969C1C204C06008E20E9 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A969A1C204C06008E20E9 /* ProductTableViewCell.m */; };
+		570A969D1C204C06008E20E9 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570A969B1C204C06008E20E9 /* ProductTableViewCell.xib */; };
+		570A96A01C204F3C008E20E9 /* WAProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A969F1C204F3C008E20E9 /* WAProduct.m */; };
 		571971661C1ED73F00B2376D /* WARestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 571971651C1ED73F00B2376D /* WARestaurant.m */; };
 		5719716A1C1EDC2E00B2376D /* RestaurantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 571971681C1EDC2E00B2376D /* RestaurantTableViewCell.m */; };
 		5719716B1C1EDC2E00B2376D /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571971691C1EDC2E00B2376D /* RestaurantTableViewCell.xib */; };
 		571971701C1EF14400B2376D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5719716E1C1EF14400B2376D /* HomeViewController.m */; };
 		571971711C1EF14400B2376D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5719716F1C1EF14400B2376D /* HomeViewController.xib */; };
+		5719717C1C1EF30300B2376D /* MenuCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5719717A1C1EF30300B2376D /* MenuCategoriesViewController.m */; };
+		5719717D1C1EF30300B2376D /* MenuCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5719717B1C1EF30300B2376D /* MenuCategoriesViewController.xib */; };
+		571971811C1EF34200B2376D /* MenuCategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5719717F1C1EF34200B2376D /* MenuCategoriesTableViewCell.m */; };
+		571971821C1EF34200B2376D /* MenuCategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571971801C1EF34200B2376D /* MenuCategoriesTableViewCell.xib */; };
+		571971851C1EF3D900B2376D /* WACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 571971841C1EF3D900B2376D /* WACategory.m */; };
+		57630DA11C2AC218001FD3A4 /* BasketItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 57630DA01C2AC218001FD3A4 /* BasketItems.m */; };
+		57630DA41C2AFDAC001FD3A4 /* WAOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57630DA31C2AFDAC001FD3A4 /* WAOrder.m */; };
+		57630DA71C2B05F9001FD3A4 /* WAProductOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57630DA61C2B05F9001FD3A4 /* WAProductOrder.m */; };
 		57F72D601C1DBE5300907A4A /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F72D5F1C1DBE5300907A4A /* ProgressView.m */; };
 		57F72D671C1DBE8500907A4A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F72D631C1DBE8500907A4A /* SVIndefiniteAnimatedView.m */; };
 		57F72D681C1DBE8500907A4A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57F72D641C1DBE8500907A4A /* SVProgressHUD.bundle */; };
@@ -252,6 +265,14 @@
 		5700F5D51C1DB115004E909B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5700F5D61C1DB115004E909B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5700F5D71C1DB115004E909B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		570A96941C204B6E008E20E9 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		570A96951C204B6E008E20E9 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		570A96961C204B6E008E20E9 /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		570A96991C204C06008E20E9 /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		570A969A1C204C06008E20E9 /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		570A969B1C204C06008E20E9 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		570A969E1C204F3C008E20E9 /* WAProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAProduct.h; sourceTree = "<group>"; };
+		570A969F1C204F3C008E20E9 /* WAProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAProduct.m; sourceTree = "<group>"; };
 		571971641C1ED73F00B2376D /* WARestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARestaurant.h; sourceTree = "<group>"; };
 		571971651C1ED73F00B2376D /* WARestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARestaurant.m; sourceTree = "<group>"; };
 		571971671C1EDC2E00B2376D /* RestaurantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableViewCell.h; sourceTree = "<group>"; };
@@ -261,6 +282,20 @@
 		5719716D1C1EF14400B2376D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		5719716E1C1EF14400B2376D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5719716F1C1EF14400B2376D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		571971791C1EF30300B2376D /* MenuCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoriesViewController.h; sourceTree = "<group>"; };
+		5719717A1C1EF30300B2376D /* MenuCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoriesViewController.m; sourceTree = "<group>"; };
+		5719717B1C1EF30300B2376D /* MenuCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCategoriesViewController.xib; sourceTree = "<group>"; };
+		5719717E1C1EF34200B2376D /* MenuCategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoriesTableViewCell.h; sourceTree = "<group>"; };
+		5719717F1C1EF34200B2376D /* MenuCategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoriesTableViewCell.m; sourceTree = "<group>"; };
+		571971801C1EF34200B2376D /* MenuCategoriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		571971831C1EF3D900B2376D /* WACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACategory.h; sourceTree = "<group>"; };
+		571971841C1EF3D900B2376D /* WACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WACategory.m; sourceTree = "<group>"; };
+		57630D9F1C2AC218001FD3A4 /* BasketItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketItems.h; sourceTree = "<group>"; };
+		57630DA01C2AC218001FD3A4 /* BasketItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketItems.m; sourceTree = "<group>"; };
+		57630DA21C2AFDAC001FD3A4 /* WAOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAOrder.h; sourceTree = "<group>"; };
+		57630DA31C2AFDAC001FD3A4 /* WAOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAOrder.m; sourceTree = "<group>"; };
+		57630DA51C2B05F9001FD3A4 /* WAProductOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAProductOrder.h; sourceTree = "<group>"; };
+		57630DA61C2B05F9001FD3A4 /* WAProductOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAProductOrder.m; sourceTree = "<group>"; };
 		57F72D5E1C1DBE5300907A4A /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		57F72D5F1C1DBE5300907A4A /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		57F72D621C1DBE8500907A4A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -376,6 +411,8 @@
 		085A16D91C1B286C0035488A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				570A96931C204B58008E20E9 /* ProductViewController */,
+				571971781C1EF2F700B2376D /* MenuCategoriesViewController */,
 				5700F5181C1DAAC9004E909B /* HomeViewController */,
 			);
 			path = ViewControllers;
@@ -446,6 +483,14 @@
 				5700F51B1C1DADCE004E909B /* Query.m */,
 				571971641C1ED73F00B2376D /* WARestaurant.h */,
 				571971651C1ED73F00B2376D /* WARestaurant.m */,
+				571971831C1EF3D900B2376D /* WACategory.h */,
+				571971841C1EF3D900B2376D /* WACategory.m */,
+				570A969E1C204F3C008E20E9 /* WAProduct.h */,
+				570A969F1C204F3C008E20E9 /* WAProduct.m */,
+				57630DA21C2AFDAC001FD3A4 /* WAOrder.h */,
+				57630DA31C2AFDAC001FD3A4 /* WAOrder.m */,
+				57630DA51C2B05F9001FD3A4 /* WAProductOrder.h */,
+				57630DA61C2B05F9001FD3A4 /* WAProductOrder.m */,
 			);
 			path = Parse;
 			sourceTree = "<group>";
@@ -704,6 +749,7 @@
 		5700F5D41C1DB0D1004E909B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				57630D9E1C2AC1FF001FD3A4 /* Basket */,
 				5700F5D51C1DB115004E909B /* Constants.h */,
 				5700F5D61C1DB115004E909B /* Reachability.h */,
 				5700F5D71C1DB115004E909B /* Reachability.m */,
@@ -711,6 +757,41 @@
 				57F72D5F1C1DBE5300907A4A /* ProgressView.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		570A96931C204B58008E20E9 /* ProductViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570A96941C204B6E008E20E9 /* ProductViewController.h */,
+				570A96951C204B6E008E20E9 /* ProductViewController.m */,
+				570A96961C204B6E008E20E9 /* ProductViewController.xib */,
+				570A96991C204C06008E20E9 /* ProductTableViewCell.h */,
+				570A969A1C204C06008E20E9 /* ProductTableViewCell.m */,
+				570A969B1C204C06008E20E9 /* ProductTableViewCell.xib */,
+			);
+			path = ProductViewController;
+			sourceTree = "<group>";
+		};
+		571971781C1EF2F700B2376D /* MenuCategoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				571971791C1EF30300B2376D /* MenuCategoriesViewController.h */,
+				5719717A1C1EF30300B2376D /* MenuCategoriesViewController.m */,
+				5719717B1C1EF30300B2376D /* MenuCategoriesViewController.xib */,
+				5719717E1C1EF34200B2376D /* MenuCategoriesTableViewCell.h */,
+				5719717F1C1EF34200B2376D /* MenuCategoriesTableViewCell.m */,
+				571971801C1EF34200B2376D /* MenuCategoriesTableViewCell.xib */,
+			);
+			path = MenuCategoriesViewController;
+			sourceTree = "<group>";
+		};
+		57630D9E1C2AC1FF001FD3A4 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				57630D9F1C2AC218001FD3A4 /* BasketItems.h */,
+				57630DA01C2AC218001FD3A4 /* BasketItems.m */,
+			);
+			path = Basket;
 			sourceTree = "<group>";
 		};
 		57F72D611C1DBE8500907A4A /* SVProgressHUD */ = {
@@ -792,6 +873,11 @@
 				TargetAttributes = {
 					085A16A21C1B27930035488A = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					085A16BB1C1B27930035488A = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -828,19 +914,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5719717D1C1EF30300B2376D /* MenuCategoriesViewController.xib in Resources */,
 				5700F5B31C1DB053004E909B /* LICENSE in Resources */,
 				085A16B61C1B27930035488A /* LaunchScreen.storyboard in Resources */,
 				085A16B31C1B27930035488A /* Assets.xcassets in Resources */,
 				5700F5BD1C1DB053004E909B /* SPGooglePlacesAutocompleteViewController.xib in Resources */,
 				5700F5A61C1DB053004E909B /* LICENSE in Resources */,
 				571971711C1EF14400B2376D /* HomeViewController.xib in Resources */,
+				570A969D1C204C06008E20E9 /* ProductTableViewCell.xib in Resources */,
 				5700F5B71C1DB053004E909B /* location.png in Resources */,
 				5700F5D11C1DB053004E909B /* LICENSE in Resources */,
 				5700F5B61C1DB053004E909B /* locateButton@2x.png in Resources */,
 				57F72D681C1DBE8500907A4A /* SVProgressHUD.bundle in Resources */,
 				5700F5B51C1DB053004E909B /* locateButton.png in Resources */,
 				5700F5B81C1DB053004E909B /* location@2x.png in Resources */,
+				570A96981C204B6E008E20E9 /* ProductViewController.xib in Resources */,
 				5719716B1C1EDC2E00B2376D /* RestaurantTableViewCell.xib in Resources */,
+				571971821C1EF34200B2376D /* MenuCategoriesTableViewCell.xib in Resources */,
 				5700F5B21C1DB053004E909B /* FSImageViewer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -870,6 +960,7 @@
 				5700F5AD1C1DB053004E909B /* FSImageScrollView.m in Sources */,
 				5700F5B91C1DB053004E909B /* SPGooglePlacesAutocompletePlace.m in Sources */,
 				57F72D601C1DBE5300907A4A /* ProgressView.m in Sources */,
+				57630DA11C2AC218001FD3A4 /* BasketItems.m in Sources */,
 				5700F5C81C1DB053004E909B /* SDWebImageManager.m in Sources */,
 				5700F5AC1C1DB053004E909B /* FSImageLoader.m in Sources */,
 				5700F5BA1C1DB053004E909B /* SPGooglePlacesAutocompleteQuery.m in Sources */,
@@ -883,8 +974,12 @@
 				5700F5D21C1DB053004E909B /* README.md in Sources */,
 				5700F5AA1C1DB053004E909B /* FSBasicImage.m in Sources */,
 				5700F5BB1C1DB053004E909B /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
+				57630DA41C2AFDAC001FD3A4 /* WAOrder.m in Sources */,
+				570A96A01C204F3C008E20E9 /* WAProduct.m in Sources */,
 				571971701C1EF14400B2376D /* HomeViewController.m in Sources */,
+				571971811C1EF34200B2376D /* MenuCategoriesTableViewCell.m in Sources */,
 				5700F5AE1C1DB053004E909B /* FSImageTitleView.m in Sources */,
+				570A96971C204B6E008E20E9 /* ProductViewController.m in Sources */,
 				5700F5A91C1DB053004E909B /* ViewFrameAccessor.m in Sources */,
 				5700F5CE1C1DB053004E909B /* UIImageView+HighlightedWebCache.m in Sources */,
 				5700F5C51C1DB053004E909B /* SDWebImageDecoder.m in Sources */,
@@ -902,7 +997,9 @@
 				5700F5A21C1DB053004E909B /* AFURLRequestSerialization.m in Sources */,
 				5700F5C31C1DB053004E909B /* SDImageCache.m in Sources */,
 				5700F5B01C1DB053004E909B /* FSImageViewerViewController.m in Sources */,
+				571971851C1EF3D900B2376D /* WACategory.m in Sources */,
 				5700F5AF1C1DB053004E909B /* FSImageView.m in Sources */,
+				5719717C1C1EF30300B2376D /* MenuCategoriesViewController.m in Sources */,
 				5700F5AB1C1DB053004E909B /* FSBasicImageSource.m in Sources */,
 				5700F5B11C1DB053004E909B /* FSPlaceholderImages.m in Sources */,
 				5700F5C71C1DB053004E909B /* SDWebImageDownloaderOperation.m in Sources */,
@@ -913,6 +1010,8 @@
 				5700F5A71C1DB053004E909B /* README.mdown in Sources */,
 				57F72D691C1DBE8500907A4A /* SVProgressHUD.m in Sources */,
 				5700F59F1C1DB053004E909B /* AFNetworkReachabilityManager.m in Sources */,
+				57630DA71C2B05F9001FD3A4 /* WAProductOrder.m in Sources */,
+				570A969C1C204C06008E20E9 /* ProductTableViewCell.m in Sources */,
 				5700F5A51C1DB053004E909B /* EGOCache.m in Sources */,
 				5700F5CA1C1DB053004E909B /* UIButton+WebCache.m in Sources */,
 				5700F5BE1C1DB053004E909B /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
