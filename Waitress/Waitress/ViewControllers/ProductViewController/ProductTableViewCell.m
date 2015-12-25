@@ -16,12 +16,21 @@
 @property (weak, nonatomic) IBOutlet UILabel *price;
 @property (weak, nonatomic) IBOutlet UILabel *commonPrice;
 @property (weak, nonatomic) IBOutlet UILabel *orederCount;
+@property (weak, nonatomic) IBOutlet UIView *mainView;
 
 @end
 
 @implementation ProductTableViewCell
+@synthesize mainView;
+
 - (void)awakeFromNib {
     // Initialization code
+    
+    mainView.layer.masksToBounds = NO;
+    mainView.layer.shadowOffset = CGSizeMake(1, 1);
+    mainView.layer.shadowRadius = 2;
+    mainView.layer.shadowOpacity = 0.3;
+    mainView.layer.shadowColor = [UIColor blackColor].CGColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

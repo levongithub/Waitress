@@ -13,15 +13,22 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *avatar;
 @property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UIView *mainView;
 
 @end
 
 @implementation MenuCategoriesTableViewCell
-
+@synthesize mainView;
 - (void)awakeFromNib {
     // Initialization code
 //    _avatar.layer.masksToBounds = YES;
 //    _avatar.layer.cornerRadius = _avatar.height/2;
+    mainView.layer.masksToBounds = NO;
+    mainView.layer.shadowOffset = CGSizeMake(1, 1);
+    mainView.layer.shadowRadius = 2;
+    mainView.layer.shadowOpacity = 0.3;
+    mainView.layer.shadowColor = [UIColor blackColor].CGColor;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

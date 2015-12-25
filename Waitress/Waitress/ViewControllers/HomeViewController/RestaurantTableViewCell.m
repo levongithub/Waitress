@@ -5,7 +5,6 @@
 //  Created by Arman Manukyan on 12/14/15.
 //  Copyright © 2015 Waitress. All rights reserved.
 //
-
 #import "RestaurantTableViewCell.h"
 
 @interface RestaurantTableViewCell ()
@@ -21,6 +20,11 @@
     // Initialization code
 //    _avatar.layer.masksToBounds = YES;
 //    _avatar.layer.cornerRadius = _avatar.height/2;
+    self.contentView.layer.masksToBounds = NO;
+    self.contentView.layer.shadowOffset = CGSizeMake(1, 1);
+    self.contentView.layer.shadowRadius = 2.5;
+    self.contentView.layer.shadowOpacity = 0.3;
+    self.contentView.layer.shadowColor = [UIColor blackColor].CGColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

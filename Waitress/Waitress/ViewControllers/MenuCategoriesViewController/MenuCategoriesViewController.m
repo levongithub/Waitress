@@ -80,7 +80,7 @@
     cell.delegate = self;
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell setWaCategory:_arrayWACategory[indexPath.row]];
-    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+//    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     
     NSLog(@"%li", (long)indexPath.row);
     

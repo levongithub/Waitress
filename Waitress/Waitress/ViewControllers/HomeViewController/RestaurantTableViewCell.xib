@@ -34,8 +34,10 @@
                     </label>
                 </subviews>
                 <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tableViewCellContentView>
             <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="avatar" destination="0iZ-pv-OAd" id="6d7-FW-Lns"/>
                 <outlet property="name" destination="5qO-ta-t9K" id="eqV-bL-UUy"/>

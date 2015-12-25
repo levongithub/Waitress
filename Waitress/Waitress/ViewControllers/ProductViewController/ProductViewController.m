@@ -79,7 +79,6 @@
     cell.delegate = self;
     
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     
     [cell setWaProduct:_arrayWAProduct[indexPath.row]];
     
@@ -90,7 +89,7 @@
     return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 90;
+    return 110;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
